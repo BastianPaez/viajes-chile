@@ -49,13 +49,13 @@
         <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/carousel1.jpg" class="d-block w-100 carousel-img" alt="carousel1">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100 h-100 carousel-img" alt="carousel1">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel2.jpg" class="d-block w-100 carousel-img" alt="carousel2">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100 h-100 carousel-img" alt="carousel2">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel3.jpg" class="d-block w-100 carousel-img" alt="carousel3">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100 h-100 carousel-img" alt="carousel3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -135,8 +135,9 @@
                 <div class="card bg-info col-sm-3 mx-auto mb-3 px-0 border-0">
                     <img src="assets/img/card1.jpg" class="card-img-top h-50" alt="card1">
                     <div class="card-body text-light">
-                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quidem
+                        <h3 class="card-title text-center placeholder-glow">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text placeholder-glow">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Inventore quidem
                             doloremque atque aliquid vel neque eaque provident delectus minus assumenda.</p>
                     </div>
                 </div>
@@ -144,8 +145,9 @@
                 <div class="card bg-info col-3 mx-auto mb-3 px-0 border-0">
                     <img src="assets/img/card2.jpg" class="card-img-top h-50" alt="card2">
                     <div class="card-body text-light">
-                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sequi
+                        <h3 class="card-title text-center placeholder-glow">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text placeholder-glow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Atque sequi
                             laborum illo aperiam unde exercitationem eius ab assumenda iure cum!</p>
                     </div>
                 </div>
@@ -153,8 +155,9 @@
                 <div class="card bg-info col-sm-3 mx-auto mb-3 px-0 border-0">
                     <img src="assets/img/card3.jpg" class="card-img-top h-50" alt="card3">
                     <div class="card-body text-light">
-                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda odio
+                        <h3 class="card-title text-center placeholder-glow">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text placeholder-glow">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Assumenda odio
                             porro cupiditate fugit, optio quasi saepe consequatur esse dolore ratione.</p>
                     </div>
                 </div>
@@ -162,8 +165,9 @@
                 <div class="card bg-info col-sm-3 mx-auto mb-3 px-0 border-0">
                     <img src="assets/img/card4.jpg" class="card-img-top h-50" alt="card4">
                     <div class="card-body text-light">
-                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sequi
+                        <h3 class="card-title text-center placeholder-glow">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text placeholder-glow">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolorem sequi
                             nulla molestias quos magni, quibusdam itaque natus quisquam nemo animi?</p>
                     </div>
                 </div>
@@ -184,13 +188,16 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Mensaje</label>
-                    <textarea class="form-control fs-4" name="mensaje" cols="30" rows="10"
-                        placeholder="Mensaje"></textarea>
-                </div>
-                <button type="submit" class="btn btn-info fs-4 text-light" data-bs-toggle="modal" data-bs-target="#Modal">Enviar</button>
+                    <textarea class="form-control fs-4" name="mensaje" cols="30" rows="10" placeholder="Mensaje"
+                        data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom"
+                        data-bs-content="Te responderemos en la brevedad😉"></textarea>
 
-                <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel"
-                    aria-hidden="true">
+                </div>
+                <button type="submit" class="btn btn-info fs-4 text-light" data-bs-toggle="modal"
+                    data-bs-target="#Modal">Enviar</button>
+
+
+                <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content text-black">
                             <div class="modal-header">
@@ -212,14 +219,16 @@
     <footer class="bg-info row align-items-center">
         <h2 class="col-sm-6 text-center">viajes chile</h2>
         <section class="col-sm-6 text-end text-center">
-            <a href="https://github.com/" target="_blank"><i
-                    class="fa-brands fa-square-github fa-2xl mx-3 text-light"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i
-                    class="fa-brands fa-linkedin fa-2xl mx-3 text-light"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i
-                    class="fa-brands fa-square-twitter fa-2xl mx-3 text-light"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github fa-2xl mx-3 text-light"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl mx-3 text-light"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Linkedin"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl mx-3 text-light"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Twitter"></i></a>
             <a href="https://web.facebook.com/" target="_blank"><i
-                    class="fa-brands fa-square-facebook fa-2xl mx-3 text-light"></i></a>
+                    class="fa-brands fa-square-facebook fa-2xl mx-3 text-light" data-bs-toggle="tooltip"
+                    data-bs-placement="bottom" data-bs-title="Facebook"></i></a>
+
         </section>
     </footer>
 
