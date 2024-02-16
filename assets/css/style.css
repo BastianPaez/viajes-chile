@@ -6,7 +6,7 @@ html {
 }
 body {
     font-size: 16px;
-    background-color: var(--bs-black);
+    color: var(--bs-light);
 }
 
 
@@ -25,6 +25,7 @@ h1 {
 
 .carousel {
     margin-top: -6.7rem;
+    margin-bottom: 8rem;
 }
 
 .carousel-img {
@@ -51,18 +52,21 @@ h1 {
 h2 {
     font-size: 4rem;
     font-weight: 400;
-    color: var(--bs-light);
     text-transform: uppercase;
-    margin: 5rem auto;
+    margin: 0 auto;
 }
 
-i{
-    color: var(--bs-light);
-    
+.hr-custom {
+    margin: 4rem auto;
+    width: 80%;
 }
+
+hr {
+    margin-top: 4rem;
+}
+
 
 .box-icon {
-    background-color: var(--bs-info);
     height: 4rem;
     display: flex;
     justify-content: center;
@@ -70,4 +74,6 @@ i{
 }
 
 
-/* QUE NO SE ME OLVIDE PONER LOS HR */
+.card {
+    width: 30rem;
+}

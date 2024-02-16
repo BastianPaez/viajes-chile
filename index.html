@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="bg-black">
     <nav class="navbar navbar-expand-lg bg-transparent sticky-top navbar-dark">
         <div class="container-fluid">
             <div class="container-logo">
@@ -32,10 +32,10 @@
                         <a class="nav-link text-light" href="#quienes-somos">Quiénes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Destacados</a>
+                        <a class="nav-link text-light" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contacto</a>
+                        <a class="nav-link text-light" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -68,12 +68,13 @@
     <main class="container">
         <section id="quienes-somos">
             <h2 class="text-center">¿quiénes somos?</h2>
-            <div class="row">
+            <hr class="hr-custom">
+            <div class="row mb-5">
                 <article class="col-sm-4">
-                    <div class="box-icon">
+                    <div class="box-icon bg-info">
                         <i class="fa-solid fa-plane fa-2xl"></i>
                     </div>
-                    <p class="text-light">
+                    <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus animi, saepe delectus
                         eligendi fugit porro eos natus molestiae sed. Dolore soluta facere laudantium qui totam velit
                         magni, quod enim, maxime exercitationem nulla quia aspernatur! Distinctio omnis tenetur magni
@@ -87,7 +88,7 @@
                 </article>
 
                 <article class="col-sm-4">
-                    <p class="text-light"> 
+                    <p> 
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore odio doloremque sunt ipsum
                         ipsam totam atque tempore pariatur excepturi hic ratione inventore sapiente, autem repellat
                         rerum exercitationem dolorum doloribus quas accusamus reiciendis? Inventore repellat id quisquam
@@ -98,16 +99,16 @@
                         repudiandae eos placeat optio nulla unde necessitatibus odit ut, nihil enim? Nam eum id nulla
                         eos. Voluptatem, fugit porro!
                     </p>
-                    <div class="box-icon">
+                    <div class="box-icon bg-info">
                         <i class="fa-solid fa-mountain fa-2xl"></i>
                     </div>
                 </article>
 
                 <article class="col-sm-4">
-                    <div class="box-icon ">
+                    <div class="box-icon  bg-info ">
                         <i class="fa-solid fa-route fa-2xl"></i>
                     </div>
-                    <p class="text-light">
+                    <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, cumque fuga animi possimus
                         voluptates ipsum adipisci laborum expedita illo, voluptate porro dolore maxime dolorum
                         asperiores repellendus! Nisi repudiandae pariatur maiores. Explicabo, suscipit! Commodi tenetur
@@ -122,54 +123,48 @@
             </div>
 
         </section>
-
-        <section>
-            <div>
-                <h2>Destacados</h2>
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        
+        <section id="destacados">
+            <div class="row mb-5">
+                <h2 class="text-center mt-5">Destacados</h2>
+                <hr class="my-5">
+                <div class="card bg-info col-sm-3 mx-auto px-0 border-0">
+                    <img src="assets/img/card1.jpg" class="card-img-top h-50" alt="card1">
+                    <div class="card-body text-light">
+                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quidem doloremque atque aliquid vel neque eaque provident delectus minus assumenda.</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card bg-info col-sm-3 mx-auto px-0 border-0">
+                    <img src="assets/img/card2.jpg" class="card-img-top h-50" alt="card2">
+                    <div class="card-body text-light">
+                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sequi laborum illo aperiam unde exercitationem eius ab assumenda iure cum!</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card bg-info col-sm-3 mx-auto px-0 border-0">
+                    <img src="assets/img/card3.jpg" class="card-img-top h-50" alt="card3">
+                    <div class="card-body text-light">
+                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda odio porro cupiditate fugit, optio quasi saepe consequatur esse dolore ratione.</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card bg-info col-sm-3 mx-auto px-0 border-0">
+                    <img src="assets/img/card4.jpg" class="card-img-top h-50" alt="card4">
+                    <div class="card-body text-light">
+                        <h3 class="card-title text-center">Lorem ipsum dolor sit amet.</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sequi nulla molestias quos magni, quibusdam itaque natus quisquam nemo animi?</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="contacto">
             <h2>Contacto</h2>
+            <hr>
             <form>
                 <div class="mb-3">
                     <label class="form-label">Nombre</label>
