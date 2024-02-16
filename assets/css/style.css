@@ -78,8 +78,16 @@ hr {
 
 #contacto {
     margin-top: 6rem;
+    margin-bottom: 5rem;
 }
 
 textarea {
     resize: none;
 }
+
+
+footer {
+    height: 10rem;
+}
+
+
