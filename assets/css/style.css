@@ -1,0 +1,39 @@
+
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+}
+
+
+
+
+.logo {
+    width: 5rem;
+}
+
+h1 {
+    margin-left: 1rem;
+}
+
+@media (min-width: 768px) { 
+    .container-logo {
+        margin-left: 20rem;
+    }
+    
+    .navegacion {
+        margin-right: 20rem;
+    }
+    
+    .nav-item {
+        margin: 0 1rem
+    }
+}
+
+
+.carousel {
+   margin-top: -6.7rem;
+}
