@@ -6,6 +6,7 @@ html {
 }
 body {
     font-size: 16px;
+    background-color: var(--bs-black);
 }
 
 
@@ -34,6 +35,31 @@ h1 {
 }
 
 
+
 .carousel {
    margin-top: -6.7rem;
 }
+
+
+h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--bs-light);
+    text-transform: uppercase;
+    margin: 5rem auto;
+}
+
+i{
+    color: var(--bs-light);
+    
+}
+
+.box-icon {
+    background-color: var(--bs-info);
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

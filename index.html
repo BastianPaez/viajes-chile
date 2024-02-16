@@ -1,97 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-transparent sticky-top">
-            <div class="container-fluid">
-                <div class="container-logo">
-                    <a class="navbar-brand d-flex justify-content-center align-items-center" href="index.html">
-                        <img src="assets/img/viajes.svg" alt="logo" class="logo">
-                        <h1 class="text-light">Viajes Chile</h1>
-                    </a>
-                </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-transparent sticky-top navbar-dark">
+        <div class="container-fluid">
+            <div class="container-logo">
+                <a class="navbar-brand d-flex justify-content-center align-items-center" href="index.html">
+                    <img src="assets/img/viajes.svg" alt="logo" class="logo">
+                    <h1 class="text-light">Viajes Chile</h1>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse navegacion" id="navbarNav">
+            </button>
+            <div class="collapse navbar-collapse navegacion" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Quienes somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Destacados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contacto</a>
-                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#quienes-somos">Quiénes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contacto</a>
+                    </li>
                 </ul>
-              </div>
             </div>
-          </nav>
+        </div>
+    </nav>
+    <header id="inicio">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+                </div>
             </div>
-            <div class="carousel-item">
-              <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
 
-    <main>
-        <section>
-            <h2>¿quiénes somos?</h2>
-            <div>
-                <article>
-                    <div>
-                        <i class="fa-solid fa-plane"></i>
+    <main class="container">
+        <section id="quienes-somos">
+            <h2 class="text-center">¿quiénes somos?</h2>
+            <div class="row">
+                <article class="col-sm-4">
+                    <div class="box-icon">
+                        <i class="fa-solid fa-plane fa-2xl"></i>
                     </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quo aspernatur quisquam, beatae delectus reprehenderit quaerat quae accusantium nobis omnis cum, totam a commodi magni fugit consequuntur atque alias quam facere iure dignissimos quidem. Veniam tempora unde laudantium inventore quas?
+                    <p class="text-light">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus animi, saepe delectus
+                        eligendi fugit porro eos natus molestiae sed. Dolore soluta facere laudantium qui totam velit
+                        magni, quod enim, maxime exercitationem nulla quia aspernatur! Distinctio omnis tenetur magni
+                        reiciendis quas accusamus, repellat eum sapiente illum possimus nemo fugit recusandae natus
+                        expedita numquam ex doloribus perferendis nobis debitis consequatur dolorem culpa placeat beatae
+                        labore. Molestiae, consequatur optio a sapiente praesentium iure dignissimos dolores accusantium
+                        animi assumenda libero veniam id. Delectus maxime perspiciatis neque, tempore ratione voluptatem
+                        labore, consectetur vitae dolorem, tenetur laborum? Optio cupiditate aliquid ipsa facilis eum
+                        recusandae, culpa dignissimos.
                     </p>
                 </article>
 
-                <article>
-                    <div>
-                        <i class="fa-solid fa-mountain"></i>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quo aspernatur quisquam, beatae delectus reprehenderit quaerat quae accusantium nobis omnis cum, totam a commodi magni fugit consequuntur atque alias quam facere iure dignissimos quidem. Veniam tempora unde laudantium inventore quas?
+                <article class="col-sm-4">
+                    <p class="text-light"> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore odio doloremque sunt ipsum
+                        ipsam totam atque tempore pariatur excepturi hic ratione inventore sapiente, autem repellat
+                        rerum exercitationem dolorum doloribus quas accusamus reiciendis? Inventore repellat id quisquam
+                        at quidem deleniti doloremque eveniet mollitia molestiae animi, fugiat, expedita facilis dolor
+                        minus accusantium! Sunt maiores quidem aut deserunt adipisci exercitationem nesciunt
+                        necessitatibus natus animi fugiat consequuntur, voluptates voluptatem cupiditate quia rem rerum
+                        assumenda eius commodi eum. Sed qui officia voluptate libero facilis, provident atque
+                        repudiandae eos placeat optio nulla unde necessitatibus odit ut, nihil enim? Nam eum id nulla
+                        eos. Voluptatem, fugit porro!
                     </p>
+                    <div class="box-icon">
+                        <i class="fa-solid fa-mountain fa-2xl"></i>
+                    </div>
                 </article>
 
-                <article>
-                    <div>
-                        <i class="fa-solid fa-route"></i>
+                <article class="col-sm-4">
+                    <div class="box-icon ">
+                        <i class="fa-solid fa-route fa-2xl"></i>
                     </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quo aspernatur quisquam, beatae delectus reprehenderit quaerat quae accusantium nobis omnis cum, totam a commodi magni fugit consequuntur atque alias quam facere iure dignissimos quidem. Veniam tempora unde laudantium inventore quas?
+                    <p class="text-light">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, cumque fuga animi possimus
+                        voluptates ipsum adipisci laborum expedita illo, voluptate porro dolore maxime dolorum
+                        asperiores repellendus! Nisi repudiandae pariatur maiores. Explicabo, suscipit! Commodi tenetur
+                        culpa exercitationem saepe quia eligendi sint id nisi natus nostrum, incidunt, ex adipisci
+                        repudiandae at quaerat eos. Non molestiae pariatur blanditiis vitae fugit saepe necessitatibus
+                        dolorum consectetur nesciunt nam quibusdam, quae eos quos eligendi animi, illo maiores quis.
+                        Ullam animi, architecto, repellat esse id ducimus facere aliquam amet incidunt dolorum in!
+                        Dolore, quidem obcaecati! Iure voluptas consequuntur iste aut sed sit aperiam molestias tempore
+                        facere delectus.
                     </p>
                 </article>
             </div>
+
         </section>
 
         <section>
@@ -100,36 +129,40 @@
                 <div class="card" style="width: 18rem;">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                
+
                 <div class="card" style="width: 18rem;">
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem;">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem;">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -143,12 +176,12 @@
                     <input type="text" class="form-control">
                 </div>
                 <div class="mb-3">
-                  <label class="form-label">Asunto</label>
-                  <input type="email" class="form-control">
+                    <label class="form-label">Asunto</label>
+                    <input type="email" class="form-control">
                 </div>
                 <div class="mb-3">
-                  <label class="form-label">Asunto</label>
-                  <textarea name="mensaje" cols="30" rows="10"></textarea>
+                    <label class="form-label">Asunto</label>
+                    <textarea name="mensaje" cols="30" rows="10"></textarea>
                 </div>
                 <button type="submit" class="btn btn-info">enviar</button>
             </form>
@@ -176,13 +209,17 @@
 
 
 
-    
+
 
 
 
     <script src="https://kit.fontawesome.com/e503e99d5a.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
