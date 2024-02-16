@@ -1,30 +1,21 @@
 html {
     font-size: 62.5%;
 }
+
 body {
     font-size: 16px;
-    color: var(--bs-light);
 }
 
+main {
+    font-family: "Montserrat", sans-serif;
+}
 
 
 .logo {
     width: 5rem;
 }
-
-h1 {
-    margin-left: 1rem;
-}
-
-
-
-.carousel {
-    margin-top: -6.7rem;
-    margin-bottom: 8rem;
-}
-
-.carousel-img {
-    width: 100%;
+nav {
+    height: 8rem;
 }
 @media (min-width: 768px) { 
     .container-logo {
@@ -41,6 +32,13 @@ h1 {
     .carousel-img {
         width: 100%;
         height: 100vh;
+    }
+    .carousel {
+        margin-top: -9rem;
+        margin-bottom: 8rem;
+    }
+    nav {
+        margin-top: 0;
     }
 }
 
@@ -64,10 +62,8 @@ hr {
 
 .box-icon {
     height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
 
 
 .card {
