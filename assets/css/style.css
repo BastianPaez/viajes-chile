@@ -80,15 +80,21 @@ hr {
 textarea {
     resize: none;
 }
-.popover { 
-    font-size: 1.3rem;
-    text-align: center;
-    width: 25rem;
-}
+
+@media (min-width: 768px) { 
+
+    .popover { 
+        font-size: 1.3rem;
+        text-align: center;
+        width: 25rem;
+    }
+ }
 
 
 footer {
     height: 10rem;
 }
+
+
 
 
